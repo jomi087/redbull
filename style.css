@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    border: border-box;
+    color: white;
+    
+}
+
+.color{
+    color: black;
+}
+
+
+.first-page{
+    background-image: url("image/virali-modi.avif");
+    height: 764px;
+    background-size: 100% 100%;
+}
+
+
+
+nav{
+
+    height: 67px;
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+} 
+
+.left-menu-size{
+    padding-left: 11px;
+    
+}
+
+.menu-circle{
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    border:1px;
+    position: relative;
+    bottom: 7px;
+    left: 9px;
+    background-color:rgba(0, 0, 0, 0.123);
+   
+}
+
+.menu-circle:hover{
+    background-color: #010d18a5;
+}
+
+.menu-pic-allignment{
+    height: 20px;
+    position: relative;
+    top: 1px;
+
+}
+
+.logo-pic-allignment{
+    width: 139px;
+    height: 23px;
+    position:relative;
+    left:15px;
+    bottom:3px
+
+}
+
+.middle-menu-size{
+height: 30px;   
+background-color:#0a0a0b5d; 
+display: flex; 
+justify-content: space-around; 
+align-items: center; 
+border-radius: 20px;
+padding-left: 22px;
+padding-right:22px;
+position: relative;
+right: 78px;
+bottom: 7px;
+}
+
+.link-modification{
+
+    
+    font-weight: 700px;
+    line-height: 20px;
+
+    
+}
+
+.selection{
+    border-radius: 20px; 
+    cursor: pointer;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+.selection:hover{
+    background-color: #000f1e1a;
+
+}
+
+.account-button-allignment{
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius:50%;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0);
+    position:absolute;
+    right: 50px;
+    top: 13px;
+
+}
+.account-button-allignment:hover{
+    background-color: #010d1876;
+    transition-property: all;
+    transition-duration: 1s;
+
+
+
+}
+.search-button-allignment{
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius:50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    position:relative;
+    right: 13px;
+    bottom: 5px;
+    
+}
+.search-button-allignment:hover{
+    background-color: #010d1876;
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+
+
+
+.search-pic-allignment{
+    height: 22px;
+    width: 22px;
+
+
+}
+
+.second-page{
+   
+    background-color: rgb(238, 238, 238);
+  
+} 
+
+.content{
+
+    position: absolute;
+    top:367px;
+    left: 66px;
+}
+
+.content-two{
+    font-size: 50px;
+    margin-top:2px
+}
+
+span{
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.border-modifier-button{
+    width: 153px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #f10e4b;
+}
+
+.border-modifier-button:hover{
+    background-color:rgb(219, 10, 64);  
+}
+
+.sub-content{
+    font-size: 13px;
+    display: flex;
+}
+
+.sub-content-list{
+    
+    height: 73px;
+    width: 150px;
+    margin-right: 7px;
+    cursor: pointer;
+    border: 0px;
+    border-top: 2px;
+    border-style: solid;
+   
+   
+    
+}
+.sub-content-list:active{
+    border-top: 2px;
+    border-style: solid;
+    border-color:rgb(219, 10, 64);
+    
+    
+}
+.sub-content-list:hover{
+    border-top: 2px;
+    border-style: solid;
+    border-color:rgb(219, 10, 64);
+    
+    
+}
+.sub-content-tittle{
+
+    color: rgba(255, 255, 255, 0.463);
+    position: relative;
+    top: 29px;
+   
+
+}
+
+.sub-content-tittle:hover{
+    color: white;
+}
+.sub-content-tittle:active{
+    color: white;
+}
+
+
+.heading{
+    color: black;
+    margin-left: 64px;
+    padding-top: 58px;
+    padding-bottom: 40px;
+    background-color: rgb(245, 245, 245); 
+}
+
+.contents{
+    /* height: 2004px; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding-bottom: 40px;
+}
+
+
+.image-box{
+    width: 362px;
+    height: 483px;
+    background-color: white;
+    cursor: pointer; 
+    border-radius: 15px;
+    margin: 10px;   
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+
+}
+
+.image-one{
+    width: 362px;
+    height: 256px;
+
+}
+
+.about{
+    height: 226px;
+    width: 362;
+    padding: 24px;
+    padding-top: 16px;
+}
+
+.contents-heading{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: black;
+    
+}
+
+.contents-sub{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.374);
+}
+
+.tittle{
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.tittle-info{
+    color:#000F1E99;
+    
+}
+
+.tittle-name{
+    color:#000F1E99;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.background-container{
+    background-image: url("image/red-bull-four-2-score-2024-india.avif");
+    background-size: cover;
+    height:315px;
+    width:362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-two{
+    width: 143px;
+    height: 160px;
+   
+}
+
+.calender-icon{
+    
+    height: 20px;
+    width: 20px;
+}
+
+
+h4{
+    display: inline-block;
+    color: black;
+    padding-left:6px;
+}
+
+
+.brand{
+    
+    width: 362px;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+  
+ 
+}
+
+.brand-heading{
+    color: black;
+    font-weight: bolder;
+    font-size: 28px;
+    width: 167px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-top: 52px;
+    margin: 61px;
+    margin-bottom: 36px;
+
+}
+
+
+.image-three{
+    height: 310px;
+    position: relative;
+    left: 95px;
+}
+
+.image-four{
+    width: 103px;
+    height: 160px;
+   
+
+}
+
+.image-five{
+    height: 224px;
+    width: 362px;
+}
+
+.background-container-two{
+    background-image: url("image/red-bull-half-court-2024-india.avif");
+    background-size: cover;
+    height:315px;
+    width:362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+svg{
+    width: 9px;
+    height: 17px;
+}
+
+.load-more{
+    display: flex;
+    justify-content: center;
+    padding-bottom:92px; 
+}
+
+ .more{
+    height: 40px;
+    width: 139px;
+    font-size: 16px;;
+    border-radius: 20px;
+    color:black;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+   
+
+} 
+
+.more:hover{
+    background-color: rgba(74, 74, 74, 0.164);
+}
+
+footer{
+    background-color: #00162b;
+    padding: 52px;
+}
+
+.last-page{
+    
+
+    height: 304px;
+    width: 1100px;
+    display: flex;
+    
+    
+}
+
+.list{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    height: 304px;
+    width:  359px;
+}
+
+.one{
+    margin-left: auto;
+}
+
+
+
+
